@@ -199,4 +199,104 @@ public class Program
 */
 
 // Lesson: More on Strings
+/*
+public class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("He said \"I am back!\"");
+        Console.WriteLine("One \nTwo \nThree");
+        Console.WriteLine("\t hey \t there");
+        Console.WriteLine(@"Hey!
+        I'm a verbatim string.");
+    }
+}
+*/
 
+// Coding Practice: Strings
+
+/*
+The given code declares a text variable with a value of "ABCD".
+
+Task:
+Write a program to output each letter on a separate line, like this 👇:
+
+A
+
+B
+
+C
+
+D
+*/
+
+/*
+public class Program
+{
+    static void Main(string[] args)
+    {
+        string text = "ABCD";
+        Console.WriteLine(text[0] + "\n" + text[1] + "\n" + text[2] + "\n" + text[3]);
+        
+        
+    }
+}
+*/
+
+// Lesson: Concatenation and Interpolation
+/*
+public class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Solo" +"learn");
+        Console.WriteLine("2" + "2");
+
+        string text1 = "C";
+        string text2 = "#";
+        string result = text1 + text2;
+
+        Console.WriteLine("Hakuna" + " " + "Matata!");
+
+        string name = Console.ReadLine();
+        Console.WriteLine(name + " is an awesome Sololearner!");
+        Console.WriteLine(name + " learns!");
+        Console.WriteLine(name + " practises!");
+        Console.WriteLine("Be like " + name + "!");
+
+        string city = "London";
+        Console.WriteLine($"{city} is the capital of the United Kingdom.");
+    }
+}
+*/
+
+// Coding Practice: Country Cards
+
+/*
+You need to make country cards for a school project 📇.
+The given program takes the country and the name of its capital name as input.
+
+Task:
+Complete the code to output a string in the format you are given in the sample output 👇.
+
+Sample Input:
+Portugal
+Lisbon
+
+Sample Output:
+Country: Portugal, Capital: Lisbon
+*/
+
+/*
+public class Program
+{
+    static void Main(string[] args)
+    {
+        string country = Console.ReadLine();
+        string capital = Console.ReadLine();
+
+        // your code goes here
+        Console.WriteLine($"Country: {country}, Capital: {capital}");
+    }
+}
+*/
