@@ -1,4 +1,4 @@
-﻿// Module 4: Methods
+﻿// Module 5: Methods
 using System;
 
 // Lesson: Methods
